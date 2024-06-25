@@ -1,3 +1,4 @@
+let oli=document.getElementById("infi-list")
 oli.addEventListener('scroll', function() {
   if (oli.scrollTop + oli.clientHeight >= oli.scrollHeight) {
     for(let i = 0; i < 2; i++) {
